@@ -6,7 +6,7 @@ public class Calculate {
   }
 
   public double ave(int x, int y, int num) {
-    return (double) (x + y) / num;
+    return (x + y) / num;
   }
 
   public int to(int x, int y) {

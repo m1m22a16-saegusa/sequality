@@ -6,7 +6,7 @@ public class Calculate {
   }
 
   public double ave(int x, int y, int num) {
-    return (double) (x + y) / num;
+    return (x + y) / num;
   }
 
   public int to(int x, int y) {
@@ -29,7 +29,7 @@ public class Calculate {
 
   public int even(int x, int y) {
     int tmp = 0;
-    for (int i = x; i <= y; i++) {
+    for (int i = x; x <= y; i++) {
       if (i % 2 == 0) {
         tmp += i;
       }

@@ -33,9 +33,5 @@ public class CalculateTest {
   }
 
   @Test
-  public void testEven() {
-    Calculate calculate = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calculate.even(1, 10));
-  }
+  public void test
 }

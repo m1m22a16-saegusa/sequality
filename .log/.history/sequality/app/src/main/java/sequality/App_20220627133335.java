@@ -14,10 +14,7 @@ public class App {
         .println(
             "Sum of 2 and 3 is " + new Calculate().sum(2, 3) + ". Average is " + new Calculate().ave(2, 3, 2) + ".");
     System.out
-        .println("Sum of 1 to 10 is " + new Calculate().to(1, 10) + ". Average is " + new Calculate().ave(0,
-            new Calculate().to(1,
-                10),
-            10)
+        .println("Sum of 1 to 10 is " + new Calculate().to(1, 10) + ". Average is " + new Calculate().ave(1, 10, 10)
             + ".");
     System.out
         .println(

@@ -22,20 +22,6 @@ public class CalculateTest {
   public void testTo() {
     Calculate calculate = new Calculate();
     int expected = 55;
-    assertEquals(expected, calculate.to(1, 10));
-  }
-
-  @Test
-  public void testOdd() {
-    Calculate calculate = new Calculate();
-    int expected = 25;
-    assertEquals(expected, calculate.odd(1, 10));
-  }
-
-  @Test
-  public void testEven() {
-    Calculate calculate = new Calculate();
-    int expected = 30;
-    assertEquals(expected, calculate.even(1, 10));
+    assertEquals(expected, calculate.);
   }
 }
